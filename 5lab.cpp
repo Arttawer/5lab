@@ -29,7 +29,7 @@ void InputDate(int& day, int& month, int& year)
 
 {
 	cout << "Введите дату\n";
-	cout << "Год\n";	cin >> year;
-	cout << "Месяц\n";  cin >> month;
-	cout << "День\n";	cin >> day;
+	cout << "День: ";	cin >> day;
+	cout << "Месяц: ";  cin >> month;
+	cout << "Год: ";	cin >> year;
 }
